@@ -1,6 +1,7 @@
 [build]
   publish = "dist/angular-netlify-functions"
   command = "ng build --prod"
+  functions = "src/assets/netlify_functions"
 [[redirects]]
   from = "/*"
   to = "/index.html"
